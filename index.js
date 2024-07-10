@@ -11,7 +11,7 @@ const getOs = () => {
     case 'darwin':
       return 'macosx'
     default:
-      return 'linux'
+      return 'linux-x64'
   }
 }
 
